@@ -1995,11 +1995,12 @@ GameObject:
   m_Component:
   - component: {fileID: 1696793926}
   - component: {fileID: 1696793925}
-  - component: {fileID: 1696793924}
   - component: {fileID: 1696793927}
   - component: {fileID: 1696793928}
   - component: {fileID: 1696793929}
   - component: {fileID: 1696793930}
+  - component: {fileID: 1696793924}
+  - component: {fileID: 1696793931}
   m_Layer: 8
   m_Name: Player
   m_TagString: Untagged
@@ -2162,6 +2163,19 @@ SortingGroup:
   m_SortingLayerID: -1869315837
   m_SortingLayer: 1
   m_SortingOrder: 2
+--- !u!114 &1696793931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1696793923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ea63d5c62976ea4faefc9991f947913, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 10
 --- !u!1001 &1796219306
 PrefabInstance:
   m_ObjectHideFlags: 0

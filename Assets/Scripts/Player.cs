@@ -7,6 +7,7 @@ public class Player : MonoBehaviour
 
     public Player (float health) {
         this.health = health;
+        Debug.Log("New player");
     }
 
     // Start is called before the first frame update
